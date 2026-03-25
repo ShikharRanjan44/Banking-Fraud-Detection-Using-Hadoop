@@ -1,0 +1,13 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# ML pipeline generated outputs (not committed)
+ml_pipeline/data/augmented/heart/*.wav
+ml_pipeline/data/augmented/lung/*.wav
+ml_pipeline/data/features/*.npy
+ml_pipeline/models/*.pkl
+ml_pipeline/models/*.h5
+ml_pipeline/models/*.keras
+ml_pipeline/evaluation/report_*.txt
